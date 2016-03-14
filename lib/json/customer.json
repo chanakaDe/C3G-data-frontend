@@ -1,0 +1,16 @@
+[
+  {
+    "customerId": "John",
+    "customerNic": "Doe",
+    "branch": "Doe",
+    "center": "Doe"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Smith"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Jones"
+  }
+]

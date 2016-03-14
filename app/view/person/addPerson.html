@@ -1,0 +1,47 @@
+<div id="page-wrapper" ng-controller="AddPersonController">
+    <div class="graphs">
+        <div class="xs">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Data Visualize / Add New Person</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="horizontal-form">
+                            <form class="form-horizontal">
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><b>Name</b></label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" ng-model="person.name" id="name"
+                                               placeholder="Enter person name">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><b>Phone</b></label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" ng-model="person.phone" id="phone"
+                                               placeholder="Enter person phone number">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"></label>
+
+                                    <div class="col-sm-8">
+                                        <button class="btn btn-primary" ng-click="savePerson()">Save Person
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
